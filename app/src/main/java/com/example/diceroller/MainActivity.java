@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
         triedtime = triedtime + 1;
         Random r = new Random();
-         number = r.nextInt(6)+1;
+        number = r.nextInt(6)+1;
         randomnumber.setText("random number is "+Integer.toString(number));
         userpoints.setText("you tried "+triedtime+" times");
         String nextnumber = Integer.toString(number);
